@@ -1,0 +1,32 @@
+{
+  "name": "AngularJS Routing - ui.router",
+  "authors": [
+    "murarivarma <murarivarma@hotmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "AngularJS",
+    "jQuery",
+    "Angular",
+    "UI",
+    "Router",
+    "Bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
