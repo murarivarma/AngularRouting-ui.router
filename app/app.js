@@ -6,7 +6,8 @@
         var homeObj = {
             templateUrl : "app/home/home.html",
             url: "/home",
-            controller: "homeCtrl"
+            controller: "homeCtrl",
+            params: {homeData: ""}
         };
         
         var loginObj = {
@@ -14,9 +15,16 @@
             url: "/login"
         };
         
+        var registerObj = {
+            templateUrl: "app/register/register.html",
+            url: "/register",
+            controller: "registerCtrl"
+        };
+        
         //Registering States
         $stateProvider.state("home", homeObj);
         $stateProvider.state("login", loginObj);
+        $stateProvider.state("register", registerObj);
     }
     
     angular.module("ui.routing App", ["header", "home", "login", "register", "ui.router"]);
