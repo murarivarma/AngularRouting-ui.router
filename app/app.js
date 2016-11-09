@@ -9,8 +9,14 @@
             controller: "homeCtrl"
         };
         
+        var loginObj = {
+            templateUrl: "app/login/login.html",
+            url: "/login"
+        };
+        
         //Registering States
         $stateProvider.state("home", homeObj);
+        $stateProvider.state("login", loginObj);
     }
     
     angular.module("ui.routing App", ["header", "home", "login", "register", "ui.router"]);
